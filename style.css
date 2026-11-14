@@ -56,7 +56,8 @@ nav a {
     display: block;
     margin-top: -140px;
     margin-left: -28px;
-    margin-right: 385px;
+    margin-right: 373px;
+    max-width: 40px;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 1px 1px 3px rgba(4, 4, 4, 0.456);
     background-color: rgb(52, 52, 52);
@@ -82,6 +83,7 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     font-family: var(--font-principal);
     max-width: 1000px;
+    text-align: justify;
     border-radius: 0px 0px 25px 25px;
     text-align: center;
     padding: 20px;
@@ -102,12 +104,16 @@ main p {
     text-shadow: 1px 1px 0px rgba(91, 91, 91, 0.667);
 }
 
+p {
+    max-height: 199px;
+}
+
 main strong {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.667);
 }
 
 main img {
-    display: block;;
+    display: block;
     margin: auto;
     margin-left: 218px;
     margin-top: -250px;
