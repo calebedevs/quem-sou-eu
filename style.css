@@ -2,13 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Indie+Flower&family=Manrope:wght@200..800&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Indie+Flower&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Manrope:wght@200..800&family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
 font-face {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+font-face {
+    font-family: "JetBrains Mono", monospace;
+}
+
 :root {
-  --font-titulo: Bebas Neue, sans-serif;
-  --font-principal: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  --font-titulo: 'Bebas Neue', sans-serif;
+  --font-principal: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --font-h2: 'JetBrains Mono', monospace;
 
 }
 
@@ -21,25 +28,40 @@ header {
   font-family: var(--font-titulo);
   color: white;
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.623);
-  background-image: linear-gradient(to bottom, rgb(71, 71, 71), rgb(109, 109, 109));
+  background-image: linear-gradient(to bottom, rgb(54, 54, 54), rgb(109, 109, 109));
   padding: 50px;
   margin: auto;
   text-align: center;
 }
 
 header h1 {
-    font-size: 2.8em;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+    padding-bottom: 2px;
+    line-height: 1.1;
+    font-size: 4em;
 }
 
 nav {
+    display: block;
+    margin-bottom: -35px;
+    margin-left: -35px;
     text-align: justify;
-    background-color: var(--cor5);
     padding: 10px;
     font-family: var(--fonte-padrão);
 }
 
 nav a {
+    display: block;
+    margin-top: -140px;
+    margin-left: -28px;
+    margin-right: 385px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 1px 1px 3px rgba(4, 4, 4, 0.456);
+    background-color: rgb(52, 52, 52);
     font-family: var(--font-principal);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.748);
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -47,14 +69,49 @@ nav a {
 }
 
 nav a:hover {
-    color: rgba(161, 161, 161, 0.786);
+    color: rgba(218, 218, 218, 0.786);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.497);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.497);
     transition-duration: 0.5s;
 }
 
+main {
+    background-color: rgb(193, 193, 193);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    font-family: var(--font-principal);
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+main h2 {
+    font-family: var(--font-h2);
+    font-size: 1.9em;
+    text-align: left;
+    padding-bottom: 8px;
+    text-shadow: 2px 1.5px 0px rgba(91, 91, 91, 0.667);
+}
+
+main p {
+    text-align: justify;
+    margin-right: 275px;
+    text-shadow: 1px 1px 0px rgba(91, 91, 91, 0.667);
+}
+
+main strong {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.667);
+}
+
 main img {
-    margin-left: 50%;
+    display: block;
+    margin-top: -220px;
+    margin-left: 218px;
+    margin-top: -250px;
+    width: 55%;
+    height: 55%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
