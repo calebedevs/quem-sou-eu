@@ -81,6 +81,7 @@ main {
     background-color: rgb(193, 193, 193);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     font-family: var(--font-principal);
+    max-width: 1000px;
     border-radius: 0px 0px 25px 25px;
     text-align: center;
     padding: 20px;
@@ -106,12 +107,12 @@ main strong {
 }
 
 main img {
-    display: block;
-    margin-top: -220px;
+    display: block;;
+    margin: auto;
     margin-left: 218px;
     margin-top: -250px;
-    width: 55%;
-    height: 55%;
+    max-width: 55%;
+    max-height: 55%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
