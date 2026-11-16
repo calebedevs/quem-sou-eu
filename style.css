@@ -98,14 +98,13 @@ main h2 {
     text-shadow: 2px 1.5px 0px rgba(91, 91, 91, 0.667);
 }
 
-main p {
-    text-align: center;
-    margin-right: 275px;
-    text-shadow: 1px 1px 0px rgba(91, 91, 91, 0.667);
-}
 
 p {
+    text-align: justify;
+    margin-right: 275px;
+    text-shadow: 1px 1px 0px rgba(91, 91, 91, 0.667);
     max-width: 180px;
+    max-height: 300px;
 }
 
 main strong {
