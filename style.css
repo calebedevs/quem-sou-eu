@@ -99,7 +99,7 @@ main h2 {
 }
 
 main p {
-    text-align: justify;
+    text-align: center;
     margin-right: 275px;
     text-shadow: 1px 1px 0px rgba(91, 91, 91, 0.667);
 }
